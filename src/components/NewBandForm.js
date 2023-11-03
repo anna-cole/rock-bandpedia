@@ -24,7 +24,7 @@ function NewBandForm({ submitNewBand }) {
  
   return (
     <div className="new-band-form">
-      <h2>New Band</h2>
+      <h2>Add a new rock band</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Band name" value={name} onChange={e => setName(e.target.value)}/>
         <input type="text" name="image" placeholder="Image URL" value={image} onChange={e => setImage(e.target.value)}/>
