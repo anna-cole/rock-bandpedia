@@ -9,7 +9,7 @@ function Header() {
           💀 
         </span>
       </h1>
-      <h4>The encyclopedia of rock bands</h4>
+      <h4>The encyclopedia of rock bands!</h4>
     </header>
   );
 }
