@@ -4,10 +4,11 @@ function NewBandForm({ submitNewBand }) {
   const [name, setName] = useState('')
   const [image, setImage] = useState('')
   const [yearsActive, setYearsActive] = useState('')
+  const [origin, setOrigin] = useState('')
  
   function handleSubmit(e) {
     e.preventDefault()
-    const newBand = {name, image, yearsActive}
+    const newBand = {name, image, yearsActive, origin}
     fetch('http://localhost:6001/bands', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
@@ -18,6 +19,7 @@ function NewBandForm({ submitNewBand }) {
     .then(setName(''))
     .then(setImage(''))
     .then(setYearsActive(''))
+    .then(setOrigin(''))
   }
  
   return (
@@ -27,6 +29,7 @@ function NewBandForm({ submitNewBand }) {
         <input type="text" name="name" placeholder="Band name" value={name} onChange={e => setName(e.target.value)}/>
         <input type="text" name="image" placeholder="Image URL" value={image} onChange={e => setImage(e.target.value)}/>
         <input type="text" name="years_active" placeholder="Years active" value={yearsActive} onChange={e => setYearsActive(e.target.value)}/>
+        <input type="text" name="origin" placeholder="Origin" value={origin} onChange={e => setOrigin(e.target.value)}/>
         <button type="submit">Add Band</button>
       </form>
     </div>
