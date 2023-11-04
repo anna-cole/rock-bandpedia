@@ -12,6 +12,19 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+#monster-header {
+  display: flex;
+  justify-content: center;
+  opacity: .8;
+  height: 7rem;
+  padding: 1rem;
+}
+
+#monster-header img {
+  height: 7rem;
+  width: 500% 
+}
+
 h2 {
   margin-bottom: 1rem;
 }
@@ -45,7 +58,6 @@ header h4 {
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
-  color: green
 }
 
 .logo {
@@ -60,7 +72,8 @@ main {
 .new-band-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
+  background-image: linear-gradient(to bottom right, rgb(155, 150, 150), rgb(42, 88, 121));
+  
 }
 
 .new-band-form form {
