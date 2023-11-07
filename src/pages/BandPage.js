@@ -1,7 +1,7 @@
-import React, { useEffect, useState }  from "react";
+import { useEffect, useState }  from "react";
 import NewBandForm from "./NewBandForm";
-import BandList from "./BandList";
 import Search from "./Search";
+import BandList from "./BandList";
 
 function BandPage() {
   const [bands, setBands] = useState([])

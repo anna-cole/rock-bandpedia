@@ -1,14 +1,15 @@
-import React from "react";
+import NavBar from "../components/NavBar";
 import Header from "./Header";
 import BandPage from "./BandPage";
 
-function App() {
+function Home() {
   return (
     <div className="app">
+      <NavBar />
       <Header />
       <BandPage />
     </div>
   );
 }
 
-export default App;
+export default Home;
