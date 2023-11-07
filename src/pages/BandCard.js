@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function BandCard({ band }) {
   const [tracking, setTracking] = useState(true)
@@ -13,6 +14,9 @@ function BandCard({ band }) {
       <h4>{band.name}</h4>
       <p>Years active: {band.years_active}</p>
       <p>Origin: {band.origin}</p>
+      <article>
+        <Link to={`/band/${band.id}`}>View band</Link>
+      </article>
       {tracking ? (
         <button className="primary" onClick={onClickTracking}>Track band</button>
       ) : (

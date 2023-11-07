@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Concerts from "./pages/Concerts";
-import Band from "./pages/Band";
+import BandProfile from "./pages/BandProfile";
 import ErrorPage from "./pages/ErrorPage";
   
 const routes = [
@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: "/band/:id",
-    element: <Band />,
+    element: <BandProfile />,
     errorElement: <ErrorPage />
   }
 ];

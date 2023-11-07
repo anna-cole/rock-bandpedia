@@ -1,16 +1,16 @@
 import NavBar from "../components/NavBar";
 
-function Concerts() {
-  return (
+function BandProfile() {
+  return(
     <>
       <header>
         <NavBar />
       </header>
       <main>
-        <h1>This is my concerts component!</h1>
+        <h1>Band Profile</h1>
       </main>
     </>
   );
 };
 
-export default Concerts;
+export default BandProfile;
