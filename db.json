@@ -3,70 +3,74 @@
     {
       "id": 1,
       "name": "AC/DC",
-      "image": "./images/acdc.jpg",
+      "image": "../images/acdc.jpg",
       "years_active": "Since 1973",
-      "origin": "Sydney, Australia"
+      "origin": "Sydney, Australia",
+      "on_tour": "Yes"
     },
     {
       "id": 2,
       "name": "Foo Fighters",
-      "image": "./images/foo-fighters.jpg",
+      "image": "../images/foo-fighters.jpg",
       "years_active": "Since 1994",
-      "origin": "Seattle, USA"
+      "origin": "Seattle, USA",
+      "on_tour": "Yes"
     },
     {
       "id": 3,
       "name": "Metallica",
-      "image": "./images/metallica.jpg",
+      "image": "../images/metallica.jpg",
       "years_active": "Since 1981",
-      "origin": "Los Angeles, USA"
+      "origin": "Los Angeles, USA",
+      "on_tour": "Yes"
     },
     {
       "id": 4,
       "name": "Guns N' Roses",
-      "image": "./images/guns-N-roses.jpg",
+      "image": "../images/guns-N-roses.jpg",
       "years_active": "Since 1985",
-      "origin": "Los Angeles, USA"
+      "origin": "Los Angeles, USA",
+      "on_tour": "Yes"
     },
     {
       "id": 5,
       "name": "Nirvana",
-      "image": "./images/nirvana.jpg",
+      "image": "../images/nirvana.jpg",
       "years_active": "1987-1994",
       "origin": "Aberdeen, USA"
     },
     {
       "id": 6,
       "name": "Pearl Jam",
-      "image": "./images/pearl-jam.jpg",
+      "image": "../images/pearl-jam.jpg",
       "years_active": "Since 1990",
       "origin": "Seattle, USA"
     },
     {
       "id": 7,
       "name": "Black Sabbath",
-      "image": "./images/black-sabbath.jpg",
+      "image": "../images/black-sabbath.jpg",
       "years_active": "1968-2017",
       "origin": "Birmingham, UK"
     },
     {
       "id": 8,
       "name": "Mother Love Bone",
-      "image": "./images/mother-love-bone.jpg",
+      "image": "../images/mother-love-bone.jpg",
       "years_active": "1988-1990",
       "origin": "Seattle, USA"
     },
     {
       "id": 9,
       "name": "Soundgarden",
-      "image": "./images/soundgarden.jpg",
+      "image": "../images/soundgarden.jpg",
       "years_active": "1984-1997, 2010-2019",
       "origin": "Seattle, USA"
     },
     {
       "id": 10,
       "name": "Red Hot Chili Peppers",
-      "image": "./images/red-hot.jpg",
+      "image": "../images/red-hot.jpg",
       "years_active": "Since 1982",
       "origin": "Los Angeles, USA"
     }

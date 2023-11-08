@@ -12,10 +12,8 @@ function BandCard({ band }) {
     <li className="card">
       <img src={band.image} alt={band.name} />
       <h4>{band.name}</h4>
-      <p>Years active: {band.years_active}</p>
-      <p>Origin: {band.origin}</p>
       <article>
-        <Link to={`/band/${band.id}`}>View band</Link>
+        <Link to={`/band/${band.id}`}>View band info</Link>
       </article>
       {tracking ? (
         <button className="primary" onClick={onClickTracking}>Track band</button>
