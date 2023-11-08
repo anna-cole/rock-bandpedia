@@ -37,42 +37,48 @@
       "name": "Nirvana",
       "image": "../images/nirvana.jpg",
       "years_active": "1987-1994",
-      "origin": "Aberdeen, USA"
+      "origin": "Aberdeen, USA",
+      "on_tour": "No"
     },
     {
       "id": 6,
       "name": "Pearl Jam",
       "image": "../images/pearl-jam.jpg",
       "years_active": "Since 1990",
-      "origin": "Seattle, USA"
+      "origin": "Seattle, USA",
+      "on_tour": "Yes"
     },
     {
       "id": 7,
       "name": "Black Sabbath",
       "image": "../images/black-sabbath.jpg",
       "years_active": "1968-2017",
-      "origin": "Birmingham, UK"
+      "origin": "Birmingham, UK",
+      "on_tour": "No"
     },
     {
       "id": 8,
       "name": "Mother Love Bone",
       "image": "../images/mother-love-bone.jpg",
       "years_active": "1988-1990",
-      "origin": "Seattle, USA"
+      "origin": "Seattle, USA",
+      "on_tour": "No"
     },
     {
       "id": 9,
       "name": "Soundgarden",
       "image": "../images/soundgarden.jpg",
       "years_active": "1984-1997, 2010-2019",
-      "origin": "Seattle, USA"
+      "origin": "Seattle, USA",
+      "on_tour": "No"
     },
     {
       "id": 10,
       "name": "Red Hot Chili Peppers",
       "image": "../images/red-hot.jpg",
       "years_active": "Since 1982",
-      "origin": "Los Angeles, USA"
+      "origin": "Los Angeles, USA",
+      "on_tour": "Yes"
     }
   ]
 }
