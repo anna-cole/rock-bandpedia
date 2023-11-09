@@ -19,20 +19,20 @@ function BandProfile() {
   };
   
   return(
-    <>
+    <div className="pages">
       <header>
         <NavBar />
       </header>
       <main>
         <li>
-          <h1>{band.name}</h1><br></br>
+          <h1 className="h1">{band.name}</h1><br></br>
           <p>Years active: {band.years_active}</p>
           <p>Origin: {band.origin}</p>
           <p>On tour? {band.on_tour}</p>
         </li><br></br>
         <img src={band.image} alt={band.name} />
       </main>
-    </>
+    </div>
   );
 };
 

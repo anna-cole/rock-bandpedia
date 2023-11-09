@@ -13,7 +13,7 @@ function BandCard({ band }) {
       <img src={band.image} alt={band.name} />
       <h4>{band.name}</h4>
       <article>
-        <Link to={`/band/${band.id}`}>View band info</Link>
+        <Link to={`/band/${band.id}`} className="link">View band details</Link>
       </article>
       {tracking ? (
         <button className="primary" onClick={onClickTracking}>Track band</button>
