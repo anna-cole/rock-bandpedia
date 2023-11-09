@@ -16,6 +16,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h3 {
+  color: white;
+}
+
 button {
   padding: 0.25rem 1rem;
   font-family: inherit;
@@ -34,10 +38,10 @@ button.primary {
   background-color: black;
 }
 
-.pages {
+/* .pages {
   color: white;
   background-color: black;
-}
+} */
 
 p {
   background-repeat: no-repeat;
@@ -48,17 +52,25 @@ p {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 1.125rem;
   letter-spacing: -.025rem;
-  line-height: 34px;
+  line-height: 25px;
   color: #f6f5f5;
-  margin-bottom: 24px;
+  margin: 10px 0 15px 0;
 }
 
 li h1 {
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 1.1666666667;
   max-width: 600px;
-  color: lightblue
+  color: white
+}
+
+.link {
+  color: rgb(76, 194, 227);
+}
+
+.link:hover {
+  color: #FFF
 }
 
 header h1 {
@@ -76,7 +88,7 @@ header h4 {
   font-size: 0.5em;
   font-weight: 900;
   text-align: center;
-  padding: 0;
+  padding: 0.5rem;
   color: white;
 }
 
@@ -87,14 +99,6 @@ header h4 {
 
 main {
   padding: 0 1rem;
-}
-
-.link {
-  color: rgb(76, 194, 227);
-}
-
-.link:hover {
-  color: #FFF
 }
 
 .new-band-form {

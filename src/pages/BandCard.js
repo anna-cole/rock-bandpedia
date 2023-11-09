@@ -10,10 +10,10 @@ function BandCard({ band }) {
   
   return (
     <li className="card">
-      <img src={band.image} alt={band.name} />
-      <h4>{band.name}</h4>
+      <img src={band.image} alt={band.name}/>
+      <h3>{band.name}</h3>
       <article>
-        <Link to={`/band/${band.id}`} className="link">View band details</Link>
+        <Link to={`/band/${band.id}`} className="link">View band info</Link>
       </article>
       {tracking ? (
         <button className="primary" onClick={onClickTracking}>Track band</button>

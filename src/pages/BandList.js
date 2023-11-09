@@ -1,7 +1,6 @@
 import BandCard from "./BandCard";
 
 function BandList({ bands, search }) {
-
   const bandsToDisplay = 
   bands.filter(band => search === '' || band.name.toLowerCase().includes(search.toLowerCase()))
 
