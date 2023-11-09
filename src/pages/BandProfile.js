@@ -19,15 +19,16 @@ function BandProfile() {
   };
   
   return(
-    <div className="pages">
+    <div className="app">
       <header>
         <NavBar />
       </header>
       <main>
         <li>
-          <h1 className="h1">{band.name}</h1><br></br>
+          <h1>{band.name}</h1><br></br>
           <p>Years active: {band.years_active}</p>
           <p>Origin: {band.origin}</p>
+          <p>Fun fact: Original singer Malcolm Young and his brother Angus developed the idea for the band's name after their older sister saw the initials AC/DC on a sewing machine.</p>
           <p>On tour? {band.on_tour}</p>
         </li><br></br>
         <img src={band.image} alt={band.name} />

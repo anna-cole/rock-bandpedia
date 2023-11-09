@@ -2,7 +2,7 @@ import NavBar from "../components/NavBar";
 import Header from "./Header";
 import BandPage from "./BandPage";
 
-function Home() {
+function App() {
   return (
     <div className="app">
       <NavBar />
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;

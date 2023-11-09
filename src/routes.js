@@ -1,4 +1,4 @@
-import Home from "./pages/Home";
+import App from "./pages/App";
 import About from "./pages/About";
 import Concerts from "./pages/Concerts";
 import BandProfile from "./pages/BandProfile";
@@ -7,7 +7,7 @@ import ErrorPage from "./pages/ErrorPage";
 const routes = [
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
     errorElement: <ErrorPage />
   }, 
   {
