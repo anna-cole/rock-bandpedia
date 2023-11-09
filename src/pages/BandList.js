@@ -1,4 +1,3 @@
-import React from "react";
 import BandCard from "./BandCard";
 
 function BandList({ bands, search }) {

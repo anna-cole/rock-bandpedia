@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Guns N' Roses",
-      "image": "../images/guns-N-roses.jpg",
+      "image": "../images/gunsnroses.jpg",
       "years_active": "Since 1985",
       "origin": "Los Angeles, USA",
       "on_tour": "Yes"

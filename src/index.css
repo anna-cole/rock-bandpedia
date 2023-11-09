@@ -15,9 +15,6 @@ body {
 #monster-header {
   display: flex;
   justify-content: center;
-  opacity: .8;
-  height: 7rem;
-  padding: 1rem;
 }
 
 h2 {
@@ -42,6 +39,33 @@ button.primary {
   background-color: black;
 }
 
+.pages {
+  color: white;
+  background-color: black;
+}
+
+p {
+  background-repeat: no-repeat;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: -.025rem;
+  line-height: 34px;
+  color: #f6f5f5;
+  margin-bottom: 24px;
+}
+
+li h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1666666667;
+  max-width: 600px;
+  color: lightblue
+}
+
 header h1 {
   font-size: 2.5em;
   font-weight: 900;
@@ -56,33 +80,6 @@ header h4 {
   text-align: center;
   padding: 0.5rem 0;
   color: white;
-}
-
-.pages {
-  color: white;
-  background-color: black;
-}
-
-p {
-background-repeat: no-repeat;
-border: none;
-margin: 0;
-padding: 0;
-text-decoration: none;
-font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
-font-size: 1.125rem;
-letter-spacing: -.025rem;
-line-height: 34px;
-color: #f6f5f5;
-margin-bottom: 24px;
-}
-
- li h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.1666666667;
-  max-width: 600px;
-  color: lightblue
 }
 
 .logo {
@@ -104,7 +101,7 @@ main {
 
 .new-band-form {
   padding: 2rem 1rem;
-  margin: 2rem 0;
+  margin: 2rem 1rem 2rem 1rem;
   background-image: linear-gradient(to bottom right, rgb(155, 150, 150), rgb(42, 88, 121));
 }
 

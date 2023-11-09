@@ -1,5 +1,3 @@
-import React from "react";
-
 function Search({ search, onChangeText }) {
   return (
     <div className="searchbar">
