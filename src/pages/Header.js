@@ -8,10 +8,6 @@ function Header() {
         </span>
         <h4>The encyclopedia of rock bands!</h4>
       </h1>
-      
-      {/* <div id="monster-header">
-      <img src="../images/background.jpg" alt="monster-header"/>
-      </div> */}
     </header>
   );
 }

@@ -12,11 +12,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-/* #monster-header {
-  display: flex;
-  justify-content: center;
-} */
-
 h2 {
   margin-bottom: 1rem;
 }
@@ -73,7 +68,8 @@ header h1 {
   padding: 1.5rem ;
   color: white;
   background-image: url("../public/images/background.jpg");
-  margin: 2rem 2rem 0 2rem
+  background-repeat: no-repeat;
+  margin: 2rem 2rem 0 2rem;
 }
 
 header h4 {
