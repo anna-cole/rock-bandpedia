@@ -6,7 +6,8 @@
       "image": "../images/acdc.jpg",
       "years_active": "Since 1973",
       "origin": "Sydney, Australia",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "Malcolm Young and Angus developed the band's name after their sister saw the initials AC/DC on a sewing machine."
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "image": "../images/foo-fighters.jpg",
       "years_active": "Since 1994",
       "origin": "Seattle, USA",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "All instruments on the first Foo Fighters album were performed by David Grohl."
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "image": "../images/metallica.jpg",
       "years_active": "Since 1981",
       "origin": "Los Angeles, USA",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "Metallica set a Guinness World Record for becoming the first musical act to perform on every continent."
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "image": "../images/gunsnroses.jpg",
       "years_active": "Since 1985",
       "origin": "Los Angeles, USA",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "'Sweet Child O’ Mine', came about by chance. Slash had only strummed along a bit and Axl Rose wrote the lyrics within a day."
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "image": "../images/nirvana.jpg",
       "years_active": "1987-1994",
       "origin": "Aberdeen, USA",
-      "on_tour": "No"
+      "on_tour": "No",
+      "fun_fact": "'Smells Like Teen Spirit' was inspired by Kurt Cobain's girlfriend's deodorant. And alcohol."
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "image": "../images/pearl-jam.jpg",
       "years_active": "Since 1990",
       "origin": "Seattle, USA",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "Several of its songs were demos they used to recruit a singer."
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "image": "../images/black-sabbath.jpg",
       "years_active": "1968-2017",
       "origin": "Birmingham, UK",
-      "on_tour": "No"
+      "on_tour": "No",
+      "fun_fact": "During a live concert, Ozzy Osbourne inadvertently bit the head off a live bat, leading to rabies shots and countless headlines."
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "image": "../images/mother-love-bone.jpg",
       "years_active": "1988-1990",
       "origin": "Seattle, USA",
-      "on_tour": "No"
+      "on_tour": "No",
+      "fun_fact": "They had invented a new sound that drew from classic hard rock, but incorporated some aspects of what came to be known as grunge."
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "image": "../images/soundgarden.jpg",
       "years_active": "1984-1997, 2010-2019",
       "origin": "Seattle, USA",
-      "on_tour": "No"
+      "on_tour": "No",
+      "fun_fact": "Soundgarden was the first grunge band to sign to a major label (A&M Records in 1989)."
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "image": "../images/red-hot.jpg",
       "years_active": "Since 1982",
       "origin": "Los Angeles, USA",
-      "on_tour": "Yes"
+      "on_tour": "Yes",
+      "fun_fact": "In the early days, they appeared on stage naked (except for sports socks over their genitals)."
     }
   ]
 }

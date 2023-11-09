@@ -28,7 +28,7 @@ function BandProfile() {
           <h1>{band.name}</h1>
           <p>Years active: {band.years_active}</p>
           <p>Origin: {band.origin}</p>
-          <p>Fun fact: Original singer Malcolm Young and his brother<br></br> Angus developed the idea for the band's name after their<br></br> older sister saw the initials AC/DC on a sewing machine.</p>
+          <p>{band.fun_fact}</p>
           <p>On tour? {band.on_tour}</p>
           <img src={band.image} alt={band.name}/>
         </li>
