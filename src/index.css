@@ -38,23 +38,62 @@ button.primary {
   background-color: black;
 }
 
-/* .pages {
-  color: white;
-  background-color: black;
-} */
+.about-image {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 570px; 
+  background-image: url("../public/images/guns.jpg");
+  background-color: #cccccc; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
 
-p {
-  background-repeat: no-repeat;
-  border: none;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+#about-text {
+  font-size: 3rem;
+  font-weight: 900;
+  max-width: 600px;
+  text-align: justify;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #f6f5f5;
+}
+
+#about-subtext {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 1.125rem;
   letter-spacing: -.025rem;
   line-height: 25px;
+  max-width: 500px;
+  text-align: justify;
+  position: absolute;
+  top: 45%;
+  left: 24.5%;
+  transform: translate(-50%, -50%);
   color: #f6f5f5;
-  margin: 10px 0 15px 0;
+}
+
+.concerts-image {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 570px; 
+  background-image: url("../public/images/guns.jpg");
+  background-color: #cccccc; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: -.025rem;
+  line-height: 25px;
+  max-width: 500px;
+  color: #f6f5f5;
+  margin: 20px 0 20px 0;
 }
 
 li h1 {
@@ -62,7 +101,7 @@ li h1 {
   font-weight: 600;
   line-height: 1.1666666667;
   max-width: 600px;
-  color: white
+  color: #f6f5f5;
 }
 
 .link {
@@ -102,7 +141,7 @@ main {
 }
 
 .new-band-form {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin: 2rem 1rem 2rem 1rem;
   background-image: linear-gradient(to bottom right, rgb(155, 150, 150), rgb(42, 88, 121));
 }
@@ -131,6 +170,7 @@ main {
 label {
   font-weight: bold;
   display: block;
+  font-size: 1.2em;
 }
 
 input {

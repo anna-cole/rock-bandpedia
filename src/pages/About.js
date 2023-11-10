@@ -2,16 +2,14 @@ import NavBar from "../components/NavBar";
 
 function About() {
   return (
-    <div className="pages">
+    <div className="about-image">
       <header>
         <NavBar />
       </header>
-      <main>
-        <h1 className="h1">Find your favorite rock band and the perfect concert wherever you are.</h1>
-        <p>Discover the best live music, tailored to your music taste.</p>
-      </main>
-      </div>
+      <h1 id="about-text">Discover concerts for your favorite artists.</h1>
+      <p id="about-subtext">Find your favorite artists, their info and tour announcements</p>
+    </div>
   );
-};
+}
 
 export default About;
