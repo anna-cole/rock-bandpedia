@@ -6,8 +6,8 @@ function About() {
       <header>
         <NavBar />
       </header>
-      <h1 id="about-text">Discover concerts for your favorite artists.</h1>
-      <p id="about-subtext">Find your favorite artists, their info and tour announcements</p>
+      <h1 id="about-text">Discover concerts for your favorite rock bands.</h1>
+      <p id="about-subtext"></p>
     </div>
   );
 }

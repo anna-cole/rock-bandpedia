@@ -69,21 +69,61 @@ button.primary {
   max-width: 500px;
   text-align: justify;
   position: absolute;
-  top: 45%;
-  left: 24.5%;
+  top: 50%;
+  left: 26%;
   transform: translate(-50%, -50%);
   color: #f6f5f5;
 }
 
-.concerts-image {
+.concert-image {
   margin: 0 auto;
   max-width: 1200px;
   height: 570px; 
-  background-image: url("../public/images/guns.jpg");
+  background-image: url("../public/images/concert.jpg");
   background-color: #cccccc; 
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover;
+}
+
+#concert-text {
+  font-size: 3rem;
+  font-weight: 900;
+  max-width: 600px;
+  text-align: justify;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: #f6f5f5;
+}
+
+#concert-subtext {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: -.025rem;
+  line-height: 25px;
+  max-width: 500px;
+  text-align: justify;
+  position: absolute;
+  top: 20%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  color: #f6f5f5
+}
+
+.concert-info {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: -.025rem;
+  line-height: 25px;
+  max-width: 500px;
+  text-align: justify;
+  position: absolute;
+  top: 55%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: #f6f5f5
 }
 
 p {
