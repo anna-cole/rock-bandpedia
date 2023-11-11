@@ -28,7 +28,7 @@ function BandProfile() {
           <h1>{band.name}</h1>
           <p>Years active: {band.years_active}</p>
           <p>Origin: {band.origin}</p>
-          <p>{band.fun_fact}</p>
+          <p>Fun fact: {band.fun_fact}</p>
           <p>On tour? {band.on_tour}</p>
           <img src={band.image} alt={band.name}/>
         </li>
