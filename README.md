@@ -33,7 +33,7 @@ We welcome any and all contributions! Here are some ways you can get started:
 
 ## Video explaining the app functionalities
 
-[Video showing features](https://www.youtube.com/watch?v=ewfwvFvIrPA)
+[Video showing features](https://youtu.be/k_j5auAiY3M)
 
 ## Check my blog post about how to create a React app from scratch and how to connect it to Github, both techniques used in this app! 
 
