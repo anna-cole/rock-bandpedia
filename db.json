@@ -89,14 +89,6 @@
       "origin": "Los Angeles, USA",
       "on_tour": "Yes",
       "fun_fact": "In the early days, they appeared on stage naked (except for sports socks over their genitals)."
-    },
-    {
-      "name": "Alice in Chains",
-      "image": "./images/aliceinchains.jpg",
-      "yearsActive": "1987-2002, 2006-present",
-      "origin": "Seattle, USA",
-      "onTour": "Yes",
-      "id": 11
     }
   ]
 }
