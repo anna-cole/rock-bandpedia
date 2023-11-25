@@ -17,11 +17,14 @@ function BandPage() {
     setBands([...bands, newBand])
   }
 
+  const bandsToDisplay = 
+  bands.filter(band => search === '' || band.name.toLowerCase().includes(search.toLowerCase()))
+
   return (
     <main>
       <NewBandForm submitNewBand={submitNewBand} />
       <Search onChangeText={e => setSearch(e.target.value)} search={search} />
-      <BandList bands={bands} search={search}/>
+      <BandList bands={bandsToDisplay} />
     </main>
   );
 }

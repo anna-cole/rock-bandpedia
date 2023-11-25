@@ -1,12 +1,9 @@
 import BandCard from "./BandCard";
 
-function BandList({ bands, search }) {
-  const bandsToDisplay = 
-  bands.filter(band => search === '' || band.name.toLowerCase().includes(search.toLowerCase()))
-
+function BandList({ bands }) {
   return (
     <ul className="cards">
-      {bandsToDisplay.map(band => <BandCard key={band.id} band={band}/>)}
+      {bands.map(band => <BandCard key={band.id} band={band}/>)}
     </ul>
   );
 }
