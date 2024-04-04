@@ -18,7 +18,11 @@ npm install -g json-server
 Then, run the below in the terminal to start the server:
 
 ```bash
-json-server --watch db.json
+json-server --watch db.json 
+```
+or
+```bash
+json-server --watch db.json --port 6001
 ```
 
 ## Contributing
