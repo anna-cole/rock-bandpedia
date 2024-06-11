@@ -18,12 +18,19 @@ npm install -g json-server
 Then, run the below in the terminal to start the server:
 
 ```bash
-json-server --watch db.json 
+npm run server 
 ```
+This will run your backend on port 6001
+
 or
 ```bash
 json-server --watch db.json --port 6001
 ```
+
+In a new terminal, run
+```bash
+npm start
+``` 
 
 ## Contributing
 We welcome any and all contributions! Here are some ways you can get started:
