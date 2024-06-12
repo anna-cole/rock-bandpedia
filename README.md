@@ -1,11 +1,7 @@
 # Rock Bandpedia app
 
 ## Description
-Welcome to our project! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Rock Bandpedia is an online encyclopedia about rock bands, where you can find photos and info of your favorite bands as well as tour announcements. My passion for music inspired me to create this app. 
-
-I created this app with React and implemented functionalities that allow users to easily see, add, track and search rock bands. Users can also see upcoming concerts for the bands they are tracking. It has JSON server for data storage and a beautiful interface that I made with CSS.
+Rock Bandpedia is an online encyclopedia about rock bands, where users can see, add, track and search their favorite rock bands. Users can also see upcoming concerts for the bands they are tracking. This app was created with React and CSS for the frontend and JSON server for data storage.
 
 We hope you enjoy and we look forward to your contributions!
 
@@ -48,7 +44,7 @@ We welcome any and all contributions! Here are some ways you can get started:
 
 ## Video explaining the app functionalities
 
-[Video showing features](https://youtu.be/k_j5auAiY3M)
+[Video showing features](https://www.loom.com/share/b8265e48e41247f6abb79b35be980061?sid=980ec56e-e385-4003-9844-6e91e49e1ea4)
 
 ## Check my blog post about how to create a React app from scratch and how to connect it to Github, both techniques used in this app! 
 
