@@ -1,4 +1,4 @@
-# Rock Bandpedia app
+# Rock Bandpedia
 
 ## Description
 Rock Bandpedia is an online encyclopedia about rock bands, where users can see, add, track and search their favorite rock bands. Users can also see upcoming concerts for the bands they are tracking. This app was created with React and CSS for the frontend and JSON server for data storage.
@@ -11,19 +11,23 @@ All of the data is stored in the db.json file. You'll access this data using a J
 ```bash
 npm install -g json-server
 ```
+
 Then, run the below in the terminal to start the server:
 
 ```bash
 npm run server 
 ```
+
 This will run your backend on port 6001
 
 or
+
 ```bash
 json-server --watch db.json --port 6001
 ```
 
-In a new terminal, run
+In a new terminal, run:
+
 ```bash
 npm start
 ``` 
@@ -43,17 +47,11 @@ We welcome any and all contributions! Here are some ways you can get started:
 5. Wait for pull request to be merged
 
 ## Video explaining the app functionalities
-
 [Video showing features](https://www.loom.com/share/b8265e48e41247f6abb79b35be980061?sid=980ec56e-e385-4003-9844-6e91e49e1ea4)
 
 ## Check my blog post about how to create a React app from scratch and how to connect it to Github, both techniques used in this app! 
-
 [A beginner’s guide on how to build a React single page application from scratch and how to connect it to Github.](https://medium.com/@anna-cole/a-beginners-guide-on-how-to-build-a-react-single-page-application-from-scratch-b925f9697573)
 
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Credits
-[voi.id](https://voi.id/en/lifestyle/121647) <br>
-[wsj](https://www.wsj.com/articles/rap-is-huge-but-on-the-concert-circuit-rock-is-king-1538575751)
