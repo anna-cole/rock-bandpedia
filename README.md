@@ -1,4 +1,4 @@
-# Rock Bandpedia
+# Rock Bandpedia - Rock Band Encyclopedia and Concert Tracker
 
 ## Description
 An online platform dedicated to rock music enthusiasts, providing a comprehensive encyclopedia where users can search for their favorite bands, save and track them, and discover upcoming concerts. The app offers personalized features, allowing users to curate their own band lists while staying up-to-date with the latest concert schedules and events. With a focus on delivering an engaging and informative experience, the platform connects users with the rock music scene in a dynamic and interactive way. This app was created with React and CSS for the frontend and JSON server for data storage.
